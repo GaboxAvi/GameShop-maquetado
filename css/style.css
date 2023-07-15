@@ -1,0 +1,229 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/*Disposición del NAV y FOOTER*/
+header nav, footer{
+    background-color: #222222;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 6.5rem;
+    word-spacing: 1px;
+}
+
+
+header nav div, footer section:first-child{
+    display: flex;
+    align-items: center;
+}
+
+
+header nav div{
+    padding-left: 15px;
+}
+
+
+nav section ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-right: 70px;
+    gap: 25px;
+}
+
+
+
+
+/*Anchura y tamaño de las letras*/
+header nav div span, footer section span{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+
+/*Anchura de "Shop"*/
+header nav .letrasRojas footer section .letrasRojas{
+    font-weight: 400;
+}
+
+
+.letrasBlancas{
+    color: #F3F3F3;
+}
+
+
+.letrasRojas{
+    color: #D01418;
+}
+
+
+
+
+/*Contenido del HERO*/
+main section:first-child{
+    background-image: url(/img/fondo.png);
+    background-position: center;
+    background-size: cover;
+    height: 30rem;
+    text-align: center;
+}   
+
+
+main section:first-child #ofertas .letrasRojas{
+    font-size: 2.8rem;
+}
+
+
+main section:first-child #ofertas{
+    font-size: 2rem;
+}
+
+
+main section:first-child #ofertasObjetos{
+    padding-top: 50px;
+}
+
+
+main section:first-child #ofertasObjetos span{
+    padding: 22px 70px;
+    font-size: 1.4rem;
+}
+
+
+main section:first-child{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#ofertasObjetos span:first-child{
+    background-color: #D01418;
+}
+
+
+
+
+/*Contenido de los ARTÍCULOS*/
+main section{
+    background-color: #F3F3F3;
+}
+
+
+main section .subtitulo{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 1.9rem;
+    text-align: center;
+}
+
+
+main section:nth-child(2) div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 6%;
+}
+
+
+main section div .productDestacados{
+    background-color: #FFF;
+    padding: 50px;
+}
+
+
+main section div article img, main section div article article{
+    position: relative;
+}
+
+main section div article img{
+    bottom: 0.9rem;
+}
+
+main section div article article{
+    top: 0.9rem;
+}
+
+
+.precio{
+    font-size: 1.4rem;
+}
+
+
+.cuotas{
+    font-size: 0.8rem;
+}
+
+
+.envio{
+    font-size: 0.7rem;
+    color: #619D00;
+}
+
+
+
+
+/* Contenido ARTÍCULOS 2 */
+
+main section:last-child section{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#sillasGamer{
+    background-image: url(/img/banner1.png);
+}
+
+
+#computadoras{
+    background-image: url(/img/banner2.png);
+}
+
+
+main section:last-child div{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#sillasGamer,#computadoras{
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 155px;
+    width: 381px;
+    margin: 20px 57px 85px;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+
+/* Contenido FOOTER 2 */
+footer{
+    padding: 100px;
+}
+
+
+footer section:last-child h3{
+    font-weight: 400;
+}
+
+footer section:last-child div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 15px;
+}
